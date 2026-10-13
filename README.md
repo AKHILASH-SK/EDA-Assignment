@@ -2,7 +2,7 @@
 
 **Course:** U21ADP05 – Exploratory Data Analysis and Visualization (Assignment II – Case Study)
 **Institution:** KPR Institute of Engineering and Technology, Dept. of Artificial Intelligence and Data Science
-**Author:** AKHILASH-SK (GitHub) – *name / roll no. to be filled in*
+**Author:** Akhilash S (Roll No. 24AD008), III Year / V Semester
 
 ## Problem
 A bank wants to know **which credit-card customers will miss next month's payment**, so it can set limits, trigger early-warning calls and reduce losses. This project explores a real-world dataset end to end: cleaning, statistical EDA, 19 visualizations, a deep-learning model (PyTorch MLP) and a full evaluation.
@@ -20,7 +20,7 @@ A CSV copy is stored in [`data/credit_default.csv`](data/credit_default.csv).
 ├── data/credit_default.csv            # dataset (CSV copy of the UCI file)
 ├── notebooks/eda_dl_case_study.ipynb  # full, commented, executed notebook (code + outputs + interpretations)
 ├── figures/                           # every chart as PNG (+ one interactive Plotly HTML)
-└── report/                            # test_metrics.csv, summary_numbers.json (and the project report)
+└── report/                            # project report (.docx and .pdf) + test_metrics.csv, summary_numbers.json
 ```
 
 ## What the notebook does
