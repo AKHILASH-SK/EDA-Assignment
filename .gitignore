@@ -1,0 +1,8 @@
+__pycache__/
+.ipynb_checkpoints/
+.claude/
+# raw download kept out of the repo (CSV copy + UCI link are included instead)
+data/credit.zip
+data/raw/
+# the original assignment brief
+Assignment II_Case Study with rubrics.docx

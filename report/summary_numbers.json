@@ -1,0 +1,54 @@
+{
+  "rows_after_cleaning": 29965,
+  "n_features_raw": 23,
+  "n_features_model": 32,
+  "duplicates_removed": 35,
+  "default_rate": 0.22125813449023862,
+  "best_config": {
+    "hidden": [
+      128,
+      64,
+      32
+    ],
+    "dropout": 0.2,
+    "lr": 0.001
+  },
+  "best_epoch": 17,
+  "epochs_run": 23,
+  "threshold": 0.32740098237991333,
+  "params": 15041,
+  "test": {
+    "MLP (PyTorch)": {
+      "accuracy": 0.7918,
+      "precision": 0.5282,
+      "recall": 0.5463,
+      "f1": 0.5371,
+      "roc_auc": 0.785,
+      "pr_auc": 0.5558
+    },
+    "Logistic Regression": {
+      "accuracy": 0.7798,
+      "precision": 0.5018,
+      "recall": 0.5744,
+      "f1": 0.5356,
+      "roc_auc": 0.7658,
+      "pr_auc": 0.5256
+    },
+    "Random Forest": {
+      "accuracy": 0.7989,
+      "precision": 0.5493,
+      "recall": 0.504,
+      "f1": 0.5257,
+      "roc_auc": 0.7793,
+      "pr_auc": 0.56
+    },
+    "MLP @ threshold 0.5": {
+      "accuracy": 0.8191,
+      "precision": 0.6625,
+      "recall": 0.3712,
+      "f1": 0.4758,
+      "roc_auc": 0.785,
+      "pr_auc": 0.5558
+    }
+  }
+}
